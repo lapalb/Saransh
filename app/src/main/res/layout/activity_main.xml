@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="145dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter User Name" />
+
+    <Button
+        android:id="@+id/serachBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_x="1dp"
+        android:layout_y="555dp"
+        android:onClick="transitionToView"
+        android:text="@android:string/search_go"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="611dp" />
+
+</AbsoluteLayout>
